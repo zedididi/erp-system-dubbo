@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <package name="shop.bean" />
+    </typeAliases>
+
+    <!--    <typeAliases>-->
+    <!--        <package name="cn.jpp.entity"/>-->
+    <!--    </typeAliases>-->
+    <!--    <mappers>-->
+    <!--        &lt;!&ndash;<mapper resource="cn/happy/entity/IUserInfoDAO.xml" /> &ndash;&gt;-->
+    <!--        <package name="cn.jpp.dao"/>-->
+    <!--    </mappers>-->
+
+    <!--分页插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+    </plugins>
+
+</configuration>

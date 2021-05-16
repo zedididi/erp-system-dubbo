@@ -1,0 +1,6 @@
+shop\dao\HwDao.class
+shop\bean\Sh.class
+shop\dao\ShDao.class
+shop\bean\User.class
+shop\bean\Hw.class
+shop\dao\UserDao.class
